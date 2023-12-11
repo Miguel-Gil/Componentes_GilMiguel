@@ -5,11 +5,13 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Label?>
-<?import es.ieslosmontecillos.componentes_gilmiguel.CampoTextoBoton?>
+<?import es.ieslosmontecillos.componentes_gilmiguel.*?>
 
-<?import es.ieslosmontecillos.componentes_gilmiguel.CampoTextoNumerico?>
 <VBox xmlns:fx="http://javafx.com/fxml" fx:controller="es.ieslosmontecillos.componentes_gilmiguel.MainController">
-    <Label fx:id="welcomeText" text="Prueba"/>
+    <Label fx:id="LBCampoTextoBoton" text="CampoTextoBoton"/>
     <CampoTextoBoton fx:id="CampoTextoBoton"/>
+    <Label fx:id="LBCampoTextoNumerico" text="CampoTextoNumerico"/>
     <CampoTextoNumerico fx:id="CampoTextoNumerico"/>
+    <Label fx:id="LBSelectorDeslizamineto" text="SelectorDeslizamineto"/>
+    <SelectorDeslizamiento fx:id="SelectorDeslizamineto"/>
 </VBox>

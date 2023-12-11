@@ -6,11 +6,17 @@ import javafx.scene.control.TextField;
 
 public class MainController {
     @javafx.fxml.FXML
-    private Label welcomeText;
-    @javafx.fxml.FXML
     private CampoTextoBoton CampoTextoBoton;
     @javafx.fxml.FXML
     private CampoTextoNumerico CampoTextoNumerico;
+    @javafx.fxml.FXML
+    private Label LBCampoTextoBoton;
+    @javafx.fxml.FXML
+    private Label LBCampoTextoNumerico;
+    @javafx.fxml.FXML
+    private Label LBSelectorDeslizamineto;
+    @javafx.fxml.FXML
+    private SelectorDeslizamiento SelectorDeslizamineto;
 
     public void onHelloButtonClick(ActionEvent actionEvent) {
     }
